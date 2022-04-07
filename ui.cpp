@@ -194,7 +194,7 @@ void UI::add_credential(nlohmann::json &input_data) {
               << "\t3. List attributes"
               << "\t4. Done"
               << "\t5. Cancel" << std::endl;
-    std::cout << "Select option : ";
+    std::cout << "\nSelect option : ";
     std::cin >> option;
     switch (option) {
     case 1:
